@@ -1409,20 +1409,18 @@ async function showMainMenu(ctx, edit = false) {
     }
     
     const message = `
-🚀 *Welcome Maestro Sniper Bot* 🤖
+🌟 *Welcome to Maestro, the one-stop solution for all your trading needs!* 
 
-*I'm your Web3 execution engine*.
 ━━━━━━━━━━━━━━━━━━
-*What I do for you*:⬇️
-📊 Scan the market to tell you what to buy, ignore, or stalk
-🎯 Execute entries & exits with sniper-level timing
-🧠 Detect traps, fake pumps, and incoming dumps before they hit
-⚡ Operate at machine-speed — no lag, no emotion
+🚨 Real-time pump detection
+💳 Instant wallet alerts
+🤖 Smart trade execution
+🎯 Auto TP/SL management
+📈 Positions: Monitor your active trades.
+💎 Trade with low fees — Use referral link
 ━━━━━━━━━━━━━━━━━━
 ${walletInfo}
-🏦 *CASH & STABLE COIN BANK*
-_Paste any Solana contract address to analyze_
-  `;
+⚡️ _Paste a Solana contract address to analyze
   
     const keyboard = Markup.inlineKeyboard([
       [
