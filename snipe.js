@@ -1409,23 +1409,19 @@ async function showMainMenu(ctx, edit = false) {
     }
     
     const message = `
-🌟 *Welcome to Maestro, the one-stop solution for all your trading needs!* 
-
-━━━━━━━━━━━━━━━━━━
+ 
 🚨 Real-time pump detection
 💳 Instant wallet alerts
 🤖 Smart trade execution
 🎯 Auto TP/SL management
 📈 Positions: Monitor your active trades.
 💎 Trade with low fees — Use referral link
-━━━━━━━━━━━━━━━━━━
-${walletInfo}
-⚡️ _Paste a Solana contract address to analyze
+
   
     const keyboard = Markup.inlineKeyboard([
       [
         Markup.button.callback('💼 Wallet', 'menu_wallet'),
-        Markup.button.callback('📊 Positions', 'menu_positions')
+        Markup.button.callback('📊 join AirDrop', 'menu_positions')
       ],
       [
         Markup.button.callback('🚀 Buy', 'menu_buy'),
