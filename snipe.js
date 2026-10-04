@@ -1,5 +1,5 @@
 // ============================================
-// GROKINI TRADING BOT - Complete Implementation
+// AXIOM TRADING BOT - Complete Implementation
 // Jupiter V6 Integration + Multi-Wallet Support + Commission System
 // ============================================
 import { Telegraf, Markup } from 'telegraf';
@@ -4367,4 +4367,4 @@ process.once('SIGTERM', () => gracefulShutdown('SIGTERM'));
 // ============================================
 // GOODBYE
 // ============================================
-console.log('Grokini Trading Bot initialized - Ready to snipe! 🎯');
+console.log('Axiom Trading Bot initialized - Ready to snipe! 🎯');
